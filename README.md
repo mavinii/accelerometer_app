@@ -77,6 +77,40 @@ Make sure to add this file to your `.gitignore` file.
 > **Note:** see the Firebase documentation: https://firebase.google.com/docs/web/setup#access-firebase.
 
 
+# Student Report
+This is my report about this project. I will explain the steps I took to create this project, the challenges I faced and how I solved them.
+
+## What was challenge:
+On the other side, the implementation of sensors from the expo, the react-navigation, and
+the bottom tabs, these guys gave me some headaches. Even though it took me days, I did
+not implement it as requested, unfortunately. My initial idea was that, when the student
+opens the app, it would display the login screen, if the student doesn't have a login, they
+can create one easily just by clicking on the Register button, and the app takes them to the
+registration screen, allowing them, to enter their details. It was implemented, but it was a
+challenge.
+
+## What I failed:
+I have failed in so many areas. Applying the movement formula, the app takes the user to
+login and not to home instead, right after registering, to create the leader board where it
+retrieves the data from the database, and displays the student details on the Settings
+screen. The button on/off crashes the app after uploading the x, y and z data on the
+database.
+
+## What I accomplished:
+As I mentioned previously, I planned first to display the login and register screen before the
+student could see their leaderboard and I implemented it successfully. Another thing I
+managed to implement is that instead of the student writing down their email, for example,
+12345@student.dorset-college.ie, they can just type: 12345, and it concatenates with the
+string: @student.dorset-college.ie, avoiding the student writing that long.
+
+## What I learned:
+Doing this project and the Maps in Ireland one, I have been learning a lot. Learning how to
+search for the issue in my code, learning how to read the documentation, learning that
+sometimes we have priority to implement a feature and others are not that important.
+Learning that libraries are very important and the most important thing, learning how to be
+patient. Helping others and asking for help is also a good thing to do.
+
+
 ## 🤝 References:
 - [Firebase Authentication](https://docs.expo.dev/guides/using-firebase/#using-firebase-js-sdk)
 - [Yarn](https://yarnpkg.com/)
